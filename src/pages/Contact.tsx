@@ -45,23 +45,23 @@ const Contact = () => {
     {
       icon: Mail,
       title: "Email",
-      value: "hello@malickumar.com",
+      value: "contact@malickumar.com",
       description: "Send me a detailed message",
-      action: "mailto:hello@malickumar.com"
+      action: "mailto:contact@malickumar.com"
     },
     {
       icon: MessageCircle,
       title: "WhatsApp",
-      value: "+91 98765 43210",
+      value: "+91 9596831195",
       description: "Quick chat for urgent projects",
-      action: "https://wa.me/919876543210"
+      action: "https://wa.me/919596831195?text=Hi%2C%20I%20found%20your%20profile%20and%20would%20like%20to%20know%20more%20about%20your%20services"
     },
     {
       icon: Phone,
       title: "Call",
-      value: "+91 98765 43210",
+      value: "+91 9596831195",
       description: "Let's discuss your project",
-      action: "tel:+919876543210"
+      action: "tel:+919596831195"
     }
   ];
 
