@@ -79,9 +79,9 @@ const About = () => {
             
             <div className="order-1 lg:order-2">
               <div className="relative">
-                <div className="w-80 h-80 mx-auto rounded-full overflow-hidden border-4 border-primary/20 animate-glow-pulse">
+                <div className="w-80 h-80 mx-auto rounded-3xl overflow-hidden border-4 border-primary/20 animate-glow-pulse bg-gradient-to-br from-primary/10 to-accent/10">
                   <img 
-                    src={portraitImage}
+                    src="/lovable-uploads/cf923b7f-02e3-4bde-a1e4-6d88a8d95097.png"
                     alt="Malick Umar"
                     className="w-full h-full object-cover"
                   />
