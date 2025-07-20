@@ -32,12 +32,12 @@ const Hero = () => {
         </p>
 
         <div className="flex flex-col sm:flex-row gap-6 justify-center items-center animate-slide-up" style={{ animationDelay: '0.4s' }}>
-          <GlowButton size="lg" className="group">
+          <GlowButton size="lg" className="group" href="/portfolio">
             <Eye className="mr-2 h-5 w-5 group-hover:scale-110 transition-transform" />
             See My Work
           </GlowButton>
           
-          <GlowButton variant="accent" size="lg" className="group">
+          <GlowButton variant="accent" size="lg" className="group" href="/contact">
             <Play className="mr-2 h-5 w-5 group-hover:scale-110 transition-transform" />
             Hire Me Now
           </GlowButton>
